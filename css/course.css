@@ -1,0 +1,128 @@
+.courses-box{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course{
+    padding: 15px;
+    background-color: #fff;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.course img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.course-title{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.buttons{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.delete-and-edit{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.delete-btn{
+    width: 27px;
+    height: 27px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit-btn{
+    width: 27px;
+    height: 27px;
+    background-color: #000092;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-duration span{
+    color: lime;
+}
+
+.course-price span{
+    color: #ca9f50;
+}
+
+.course-box2{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 20px;
+}
+.course-imgs{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.course-img{
+width: 45px;
+height: 45px;
+border-radius: 10px;
+}
+.course-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.course-durations{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.course-duration{
+    font-size: 16px;
+}
+.course-duration2{
+    font-size: 16px;
+    color: rgb(2, 203, 2);
+    font-weight: 700;
+}
+.course-prices{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.course-price{
+    font-size: 16px;
+}
+.course-price2{
+    font-size: 16px;
+    color: rgb(252, 178, 41);
+    font-weight: 700;
+}
+.course-line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(94, 94, 94);
+    margin-bottom: 10px;
+}
+.course-text{
+    font-size: 16px;
+}
